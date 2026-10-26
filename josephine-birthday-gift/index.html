@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Happy B'Day Jo </title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="app">
+  <div id="start-slide" class="start-slide">
+    <div class="scatter-letters" id="scatter-letters"></div>
+    <div class="start-copy">
+      <p class="start-title">Oh no!</p>
+      <p class="start-text">The letters have been blown to the winds.</p>
+      <p class="start-text">Rediscover them to give them their original form and reveal their message.</p>
+    </div>
+    <button id="start-btn" class="submit-btn">Let's Go!</button>
+  </div>
+
+  <form id="quiz-form" class="slide hidden">
+    <div class="hint" id="hint"></div>
+
+    <div class="answer" id="answer"></div>
+
+    <button type="submit" class="submit-btn">Let's Go!</button>
+  </form>
+
+  <div id="final-slide" class="final-slide hidden">
+    <div class="final-top" id="final-top">
+      <img id="final-image" class="final-image" src="images/final.jpg" alt="" />
+      <h1 class="final-text">Happy Birthday Jo&nbsp;😘</h1>
+    </div>
+    <div class="final-reveal" id="reveal"></div>
+    <button id="play-again-btn" class="submit-btn play-again">Play again</button>
+  </div>
+
+  <img id="wrong-image" class="wrong-image" src="images/wrong.jpg" alt="" />
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
